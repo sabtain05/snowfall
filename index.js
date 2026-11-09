@@ -27,31 +27,43 @@
     });
 
     const snowflakes = [];
-    const maxSnowflakes = 200;
+    const maxSnowflakes = 120;
+    const flakeChars = ['❄', '❅', '❆'];
 
     for (let i = 0; i < maxSnowflakes; i++) {
+        let isCrystal = Math.random() > 0.4;
         snowflakes.push({
             x: Math.random() * width,
             y: Math.random() * height,
-            radius: Math.random() * 1.5 + 0.5,
+            size: isCrystal ? Math.random() * 25 + 10 : Math.random() * 5 + 2,
             speed: Math.random() * 1 + 0.5,
             wind: Math.random() * 0.5 - 0.25,
             swing: Math.random() * 100,
-            swingSpeed: Math.random() * 0.02 + 0.005
+            swingSpeed: Math.random() * 0.02 + 0.005,
+            char: isCrystal ? flakeChars[Math.floor(Math.random() * flakeChars.length)] : null,
+            opacity: isCrystal ? Math.random() * 0.6 + 0.4 : Math.random() * 0.3 + 0.1,
+            isCrystal: isCrystal
         });
     }
 
     function draw() {
         ctx.clearRect(0, 0, width, height);
-        ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
-        ctx.beginPath();
         
         snowflakes.forEach(flake => {
-            ctx.moveTo(flake.x, flake.y);
-            ctx.arc(flake.x, flake.y, flake.radius, 0, Math.PI * 2, true);
+            ctx.fillStyle = `rgba(255, 255, 255, ${flake.opacity})`;
+            
+            if (flake.isCrystal) {
+                ctx.font = `${flake.size}px Arial`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(flake.char, flake.x, flake.y);
+            } else {
+                ctx.beginPath();
+                ctx.arc(flake.x, flake.y, flake.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
         });
         
-        ctx.fill();
         update();
     }
 
@@ -61,12 +73,12 @@
             flake.swing += flake.swingSpeed;
             flake.x += flake.wind + Math.sin(flake.swing) * 0.4;
 
-            if (flake.y > height) {
-                flake.y = -flake.radius;
+            if (flake.y > height + 40) {
+                flake.y = -40;
                 flake.x = Math.random() * width;
             }
-            if (flake.x > width) flake.x = 0;
-            if (flake.x < 0) flake.x = width;
+            if (flake.x > width + 40) flake.x = -40;
+            if (flake.x < -40) flake.x = width + 40;
         });
         requestAnimationFrame(draw);
     }
