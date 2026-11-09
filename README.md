@@ -1,4 +1,4 @@
-# snowfall 
+# snowfall-renderer
 
 Plug-and-play snowfall renderer for any website. Whether you have a complex React/Next.js application or a single `index.html` file, this package will bring winter to your project instantly. 
 
@@ -14,17 +14,17 @@ Plug-and-play snowfall renderer for any website. Whether you have a complex Reac
 You can install it using your favorite package manager:
 
 ```bash
-npm install snowfall
+npm install snowfall-renderer
 
 ```
 
 ```bash
-pnpm add snowfall
+pnpm add snowfall-renderer
 
 ```
 
 ```bash
-yarn add snowfall
+yarn add snowfall-renderer
 
 ```
 
@@ -35,7 +35,7 @@ yarn add snowfall
 Simply import the package into your main entry file (like `index.js`, `App.jsx`, or `layout.tsx`). The snow will start falling automatically.
 
 ```javascript
-import 'snowfall';
+import 'snowfall-renderer';
 
 ```
 
@@ -56,7 +56,7 @@ If you just have an `index.html` file, add the following CDN link right before y
     
     <h1>Welcome to my website!</h1>
 
-    <script src="[https://unpkg.com/snowfall](https://unpkg.com/snowfall)"></script>
+    <script src="[https://unpkg.com/snowfall-renderer](https://unpkg.com/snowfall-renderer)"></script>
 </body>
 </html>
 
