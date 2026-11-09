@@ -1,9 +1,11 @@
-# snowfall-renderer
+```markdown
+# snowfall-renderer ❄️
 
-Plug-and-play snowfall renderer for any website. Whether you have a complex React/Next.js application or a single `index.html` file, this package will bring winter to your project instantly. 
+A universal, plug-and-play snowfall effect for any website. Whether you have a complex React/Next.js application or a single `index.html` file, this package will bring a realistic, crystalline winter effect to your project instantly. 
 
 ## Features
 * **Zero Configuration:** Just install/import, and the snow starts falling.
+* **Realistic Physics & Visuals:** Features detailed crystalline snowflake shapes (❄, ❅, ❆) and depth-of-field effects with natural aerodynamic drag and wind sway.
 * **Universal Compatibility:** Works on complex frameworks (React, Vue, Angular, Next.js) and basic static HTML projects.
 * **Click-Through Design:** Uses `pointer-events: none` so it never blocks your buttons, links, or inputs.
 * **Responsive:** Automatically adjusts to window resize events.
@@ -56,7 +58,7 @@ If you just have an `index.html` file, add the following CDN link right before y
     
     <h1>Welcome to my website!</h1>
 
-    <script src="[https://unpkg.com/snowfall-renderer](https://unpkg.com/snowfall-renderer)"></script>
+    <script src="[https://unpkg.com/snowfall-renderer@1.1.0](https://unpkg.com/snowfall-renderer@1.1.0)"></script>
 </body>
 </html>
 
