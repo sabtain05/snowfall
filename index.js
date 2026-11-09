@@ -3,4 +3,7 @@
 
     const canvas = document.createElement('canvas');
     const ctx = canvas.getContext('2d');
+
+    canvas.style.position = 'fixed';
+    canvas.style.top = '0';
 })
