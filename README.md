@@ -1,5 +1,4 @@
-```markdown
-# snowfall ❄️
+# snowfall 
 
 A universal, plug-and-play snowfall effect for any website. Whether you have a complex React/Next.js application or a single `index.html` file, this package will bring winter to your project instantly. 
 
