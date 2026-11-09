@@ -13,4 +13,7 @@
     canvas.style.zIndex = '999999';
 
     document.body.appendChild(canvas);
+
+    let width = window.innerWidth;
+    let height = window.innerHeight;
 })
