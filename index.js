@@ -22,5 +22,7 @@
     window.addEventListener('resize', () => {
         width = window.innerWidth;
         height = window.innerHeight;
-    })
+        canvas.width = width;
+        canvas.height = height;
+    });
 })
