@@ -20,6 +20,7 @@
     canvas.height = height;
 
     window.addEventListener('resize', () => {
-        width
+        width = window.innerWidth;
+        height = window.innerHeight;
     })
 })
