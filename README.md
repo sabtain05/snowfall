@@ -1,7 +1,6 @@
-```markdown
-# snowfall-renderer ❄️
+# snowfall-renderer
 
-A universal, plug-and-play snowfall effect for any website. Whether you have a complex React/Next.js application or a single `index.html` file, this package will bring a realistic, crystalline winter effect to your project instantly. 
+Plug-and-play snowfall effect for any website. Whether you have a complex React/Next.js application or a single `index.html` file, this package will bring a realistic, crystalline winter effect to your project instantly. 
 
 ## Features
 * **Zero Configuration:** Just install/import, and the snow starts falling.
