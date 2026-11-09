@@ -11,4 +11,6 @@
     canvas.style.height = '100vh';
     canvas.style.pointerEvents = 'none';
     canvas.style.zIndex = '999999';
+
+    document.body.appendChild(canvas);
 })
