@@ -50,5 +50,6 @@
         });
 
         ctx.fill();
+        update();
     }
 })
