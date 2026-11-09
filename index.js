@@ -33,6 +33,8 @@
         snowflakes.push({
             x: Math.random() * width,
             y: Math.random() * height,
+            radius: Math.random() * 3 + 1,
+            
         })
     }
 })
