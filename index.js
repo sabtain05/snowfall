@@ -58,7 +58,9 @@
             flake.y += flake.speed;
             flake.x += flake.wind;
 
-            if (flake.y > height) {}
+            if (flake.y > height) {
+                flake.y = -flake.radius;
+            }
         })
     }
 })
