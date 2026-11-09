@@ -66,10 +66,6 @@ If you just have an `index.html` file, add the following CDN link right before y
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Author
-
-**Sabtain Ali**
-
 ---
 
 <p align="center">
