@@ -18,4 +18,8 @@
     let height = window.innerHeight;
     canvas.width = width;
     canvas.height = height;
+
+    window.addEventListener('resize', () => {
+        width
+    })
 })
