@@ -54,6 +54,6 @@
     }
 
     function update() {
-        snowflakes
+        snowflakes.forEach(flake => {})
     }
 })
