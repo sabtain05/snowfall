@@ -57,6 +57,8 @@
         snowflakes.forEach(flake => {
             flake.y += flake.speed;
             flake.x += flake.wind;
+
+            if (flake.y > height) {}
         })
     }
 })
