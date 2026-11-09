@@ -1,0 +1,9 @@
+{
+  "name": "snowfall",
+  "version": "1.0.0",
+  "description": "Plug-and-play snowfall renderer",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Sabtain Ali",
+  "license": "MIT"
+}
