@@ -32,6 +32,7 @@
     for (let i = 0; i<maxSnowflakes; i++) {
         snowflakes.push({
             x: Math.random() * width,
+            y: Math.random() * height,
         })
     }
 })
