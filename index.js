@@ -52,4 +52,8 @@
         ctx.fill();
         update();
     }
+
+    function update() {
+        snowflakes
+    }
 })
