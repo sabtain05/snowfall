@@ -1,5 +1,5 @@
 {
-  "name": "snowfall",
+  "name": "snowfall-renderer",
   "version": "1.0.0",
   "description": "Plug-and-play snowfall renderer",
   "main": "index.js",
