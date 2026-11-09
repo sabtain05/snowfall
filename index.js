@@ -25,4 +25,7 @@
         canvas.width = width;
         canvas.height = height;
     });
+
+    const snowflakes = [];
+    const maxSnowflakes = 150;
 })
