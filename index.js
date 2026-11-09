@@ -60,6 +60,7 @@
 
             if (flake.y > height) {
                 flake.y = -flake.radius;
+                flake.x = Math.random() * width;
             }
         })
     }
