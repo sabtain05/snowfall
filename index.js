@@ -48,5 +48,7 @@
             ctx.moveTo(flake.x, flake.y);
             ctx.arc(flake.x, flake.y, flake.radius, 0, Math.PI * 2, true);
         });
+
+        ctx.fill();
     }
 })
