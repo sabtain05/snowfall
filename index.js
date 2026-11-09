@@ -38,4 +38,8 @@
             wind: Math.random() * 1 - 0.5
         });
     }
+
+    function draw() {
+        ctx.clearRect(0, 0, width, height);
+    }
 })
