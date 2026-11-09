@@ -34,6 +34,7 @@
             x: Math.random() * width,
             y: Math.random() * height,
             radius: Math.random() * 3 + 1,
+            speed: Math.random() * 2 + 1,
             
         })
     }
