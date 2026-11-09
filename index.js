@@ -65,5 +65,8 @@
             if (flake.x > width) flake.x=0;
             if (flake.x < 0) flake.x=width;
         });
+        requestAnimationFrame(draw);
     }
-})
+
+    requestAnimationFrame(draw);
+})();
