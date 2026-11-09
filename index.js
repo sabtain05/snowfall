@@ -9,4 +9,6 @@
     canvas.style.left = '0';
     canvas.style.width = '100vw';
     canvas.style.height = '100vh';
+    canvas.style.pointerEvents = 'none';
+    canvas.style.zIndex = '999999';
 })
