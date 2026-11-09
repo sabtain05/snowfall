@@ -62,6 +62,7 @@
                 flake.y = -flake.radius;
                 flake.x = Math.random() * width;
             }
+            if (flake.x > width) flake.x=0;
         })
     }
 })
