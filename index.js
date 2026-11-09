@@ -56,6 +56,7 @@
     function update() {
         snowflakes.forEach(flake => {
             flake.y += flake.speed;
+            flake.x += flake.wind;
         })
     }
 })
