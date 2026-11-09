@@ -8,4 +8,5 @@
     canvas.style.top = '0';
     canvas.style.left = '0';
     canvas.style.width = '100vw';
+    canvas.style.height = '100vh';
 })
