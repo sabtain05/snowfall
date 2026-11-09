@@ -35,7 +35,7 @@
             y: Math.random() * height,
             radius: Math.random() * 3 + 1,
             speed: Math.random() * 2 + 1,
-            
-        })
+            wind: Math.random() * 1 - 0.5
+        });
     }
 })
