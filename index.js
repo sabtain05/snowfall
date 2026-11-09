@@ -28,4 +28,10 @@
 
     const snowflakes = [];
     const maxSnowflakes = 150;
+
+    for (let i = 0; i<maxSnowflakes; i++) {
+        snowflakes.push({
+            x: Math.random() * width,
+        })
+    }
 })
