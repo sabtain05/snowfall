@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.1] - 2026-11-09
+## [1.1.0] - 2026-11-09
 
 ### Changed
 - Enhanced visual realism by introducing detailed crystalline snowflake shapes (❄, ❅, ❆) instead of simple circles.
